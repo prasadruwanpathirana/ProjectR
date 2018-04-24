@@ -1,0 +1,10 @@
+E:\dotnetSol\ProjectRathnaSri\obj\Debug\netcoreapp2.0\ProjectRathnaSri.csproj.CoreCompileInputs.cache
+E:\dotnetSol\ProjectRathnaSri\obj\Debug\netcoreapp2.0\ProjectRathnaSri.AssemblyInfoInputs.cache
+E:\dotnetSol\ProjectRathnaSri\obj\Debug\netcoreapp2.0\ProjectRathnaSri.AssemblyInfo.cs
+E:\dotnetSol\ProjectRathnaSri\bin\Debug\netcoreapp2.0\ProjectRathnaSri.deps.json
+E:\dotnetSol\ProjectRathnaSri\bin\Debug\netcoreapp2.0\ProjectRathnaSri.runtimeconfig.json
+E:\dotnetSol\ProjectRathnaSri\bin\Debug\netcoreapp2.0\ProjectRathnaSri.runtimeconfig.dev.json
+E:\dotnetSol\ProjectRathnaSri\bin\Debug\netcoreapp2.0\ProjectRathnaSri.dll
+E:\dotnetSol\ProjectRathnaSri\bin\Debug\netcoreapp2.0\ProjectRathnaSri.pdb
+E:\dotnetSol\ProjectRathnaSri\obj\Debug\netcoreapp2.0\ProjectRathnaSri.dll
+E:\dotnetSol\ProjectRathnaSri\obj\Debug\netcoreapp2.0\ProjectRathnaSri.pdb
