@@ -32,12 +32,8 @@ namespace ProjectRathnaSri.Controllers
         {
             //return !string.IsNullOrEmpty(username) && username == password;
             List<User> usrList =   _context.Users.ToList();
-            usrList.Find(x => (x.UserName == username && x.Password == password));
-            if(usrList != null) {
-                return true;
-            } else {
-                return false;
-            }
+            return usrList.Find(x => (x.UserName == username && x.Password == password)) != null ? true : false;
+            
         }
 
         private string GenerateToken(string username)

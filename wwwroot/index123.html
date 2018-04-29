@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="http://localhost:5000/css2/styles.css">
+
+ 
+</head>
+<body>
+ 
+<div id="flip"></div>
+<div id="panel"></div>
+
+</body>
+
+<script src="http://localhost:5000/js2/jquery.min.js"></script>
+<script> 
+    $(document).ready(function(){
+        /*$.ajax({
+            url: "http://localhost:5000/api/values"
+        }).then(function(data) {
+            $('#flip').text(data[0]);
+            $('#panel').text(data[1]);
+        });*/ 
+
+        $.post( "http://localhost:5000/token", { username: "prasad1", password: "prasad1" })
+        .done(function( data ) {
+            debugger;
+            $.ajax({
+                url: "http://localhost:5000/api/values",
+                headers: 
+                {
+                    "Content-Type": "application/json",
+                    "Authorization": "Bearer " + data
+                }
+            }).then(function(data) {
+                $('#flip').text(data[0]);
+                $('#panel').text(data[1]);
+            });
+        });
+
+        $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+        });
+    });
+</script>
+
+
+</html>
